@@ -28,6 +28,10 @@ Run as: python pointnet.py
 
 First, you need to download a dataset such as ModelNet10 or ModelNet40, and then use ModelNet10_build_dataset_in_npz.py or ModelNet40_build_dataset_in_npz.py in dataset_building_tools to construct a compressed npz format dataset (reading a single file is very slow, using fit_generator will affect code efficiency), Then use read_npz_test.py to read the npz file to see if the npz database is properly constructed.
 
+### [ModelNet10] loss and acc data for each epoch in training
+
 ![ModelNet10](https://github.com/iubizi/pointnet-tensorflow2.0/blob/main/ModelNet10_result/visualization%40ModelNet10.png)
+
+### [ModelNet40] loss and acc data for each epoch in training
 
 ![ModelNet40](https://github.com/iubizi/pointnet-tensorflow2.0/blob/main/ModelNet40_result/visualization%40ModelNet40.png)
